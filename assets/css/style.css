@@ -1,0 +1,11 @@
+h1{
+    color:blue;
+}
+
+#top-box, #bottom-box{
+    border:2px solid grey;
+}
+
+input{
+    width:100%;
+}
