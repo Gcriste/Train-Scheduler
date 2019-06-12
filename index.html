@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  
+
 <!-- css link-->
     <link rel="stylesheet" href = "assets/css/style.css">
  <!-- bootstrap-->  
@@ -16,12 +16,21 @@
     <title>Train Scheduler</title>
 </head>
 <body>
+
+<main>
+
+<!--header-->
+    <header>
+           <div class = "header"> Train Scheduler</div>
+    </header>
+
+
 <!-- new grid for header(jumbotron)-->
     <div class = "container">
-        
-        <div class = "jumbotron">
-            <div class = "train-pic">
-                <h1 class = "text-center"> Train Schedule</h1>
+        <div class = "row">
+            <div class = "col-md-12">
+                <div class = "jumbotron">
+                </div>
             </div>
         </div>
     </div>
@@ -36,8 +45,8 @@
 
                     <!--gives the heading for each section in the table-->
                     <div class = "card-body">
-                        <table class = "table table-sm table-hover" id ="train-table">
-                            <thead>
+                        <table class = "table table-sm table-hover" id ="train-table" >
+                            <thead class = "text-center">
                                 <tr>
                                     <th scope = "col">Train Name</th>
                                     <th scope = "col">Destination</th>
@@ -48,7 +57,7 @@
                             </thead>
 
                             <!-- this is where we will print information from database-->
-                            <tbody id = "table-body">
+                            <tbody id = "table-body" class = "text-center">
 
                             </tbody>
                         </table>
@@ -106,6 +115,13 @@
     </div>
 
 
+    <!-- footer-->
+<div class = "footer">
+        &copy; 2019
+</div>
+
+
+</main>
 
 <!--jquery and javascript links-->
     <script
